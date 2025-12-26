@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "==1.0.0"
+openai = "*"
+
+[dev-packages]
+# no dev packages required for this simple project
+
+[requires]
+python_version = "3.14"
